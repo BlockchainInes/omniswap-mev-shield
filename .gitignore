@@ -1,0 +1,27 @@
+# ====== Foundry & Forge Artifacts ======
+out/
+cache/
+artifacts/
+
+# ====== Dependencies ======
+lib/
+node_modules/
+
+# ====== Environment & Private Keys ======
+.env
+.env.*
+!.env.example
+
+# ====== System & Editor Specific ======
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# ====== Local Script Logs ======
+broadcast/
