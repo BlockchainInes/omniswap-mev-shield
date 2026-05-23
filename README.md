@@ -44,7 +44,7 @@ The protocol is fully operational, validated, and successfully deployed to the p
    └───────────────────────┘
 
 Core Project Directory
-Plaintext
+
 ├── .github/          # Automated pipeline configs
 ├── lib/              # Foundry core Forge dependencies
 ├── script/
