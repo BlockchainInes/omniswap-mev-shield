@@ -110,4 +110,4 @@ Publish and register the source implementation files on Etherscan for trustless 
 PowerShell
 forge verify-contract 0x9685ed0b956580f8b46ce68696c15e7508dd43f8 src/MevShield.sol:MevShield --chain-id 11155111 --etherscan-api-key (Get-Content .env | Where-Object {$_ -match "ETHERSCAN_API_KEY"} | ForEach-Object {$_ -replace "ETHERSCAN_API_KEY=",""})
 
-Developed for Web3 Security & Advanced Portfolio Showcasing.
+Developed by Ines Krueger for Web3 Security & Advanced Portfolio Showcasing.
