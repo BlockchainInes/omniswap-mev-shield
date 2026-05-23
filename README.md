@@ -17,6 +17,11 @@ The architecture isolates the hidden transaction intent from deterministic state
 1. **Commit Phase:** The user anchors a cryptographic hash (`keccak256`) containing the targeted contract payload, execution metrics, and a cryptographically hidden secret salt onto the ledger.
 2. **Reveal Phase:** Following a mandatory verification block window delay, the user submits the unhashed, raw parameters along with the matching salt. The contract verifies integrity against the record and triggers execution atomically.
 
+PROTOCOL EXECUTION PROOF (TERMINAL & SMART CONTRACT VERIFICATION)
+The protocol is fully operational, validated, and successfully deployed to the public test ledger:
+* **Verified Live Contract Address:** `0x9685ed0b956580f8b46ce68696c15e7508dd43f8`
+* **Official Blockchain Explorer Record:** [View Open-Source Verified Contract on Sepolia Etherscan](https://sepolia.etherscan.io/address/0x9685ed0b956580f8b46ce68696c15e7508dd43f8#code)
+
 ```text
        [ USER / WALLET ]
                │
@@ -52,12 +57,6 @@ Plaintext
 └── README.md         # Documentation layout overview
 ================================================================================
 
-PROTOCOL EXECUTION PROOF (TERMINAL & SMART CONTRACT VERIFICATION)
-The protocol is fully operational, validated, and successfully deployed to the public test ledger:
-* **Verified Live Contract Address:** `0x9685ed0b956580f8b46ce68696c15e7508dd43f8`
-* **Official Blockchain Explorer Record:** [View Open-Source Verified Contract on Sepolia Etherscan](https://sepolia.etherscan.io/address/0x9685ed0b956580f8b46ce68696c15e7508dd43f8#code)
-
-================================================================================
 SETUP & DEPLOYMENT GUIDE
 
 1. Installation
