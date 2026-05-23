@@ -25,7 +25,7 @@ The protocol is fully operational, validated, and successfully deployed to the p
 
 
 ```text
-       [ USER / WALLET ]
+        USER / WALLET 
                │
       1. COMMIT PHASE (Blocks: N)
                │  (Submits Keccak256 Hash of: Target + Payload + Secret Salt)
