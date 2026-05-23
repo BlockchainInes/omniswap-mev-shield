@@ -81,7 +81,7 @@ Remove-Item script/Counter.s.sol
 Populate localized environment values within a .env deployment file in the root workspace folder:
 
 Fragmento de código
-PRIVATE_KEY=0x9685ed0b956580f8b46ce68696c15e7508dd43f8...
+PRIVATE_KEY=0x...................
 SEPOLIA_RPC_URL=[https://eth-sepolia.g.alchemy.com/v2/
 YOUR_ALCHEMY_API_KEY](https://eth-sepolia.g.alchemy.com/v2/
 YOUR_ALCHEMY_API_KEY)
