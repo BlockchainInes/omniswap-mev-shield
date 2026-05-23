@@ -82,11 +82,8 @@ Remove-Item script/Counter.s.sol
 3. Configuration Setup
 Populate localized environment values within a .env deployment file in the root workspace folder:
 
-Fragmento de código
-PRIVATE_KEY=0x...................
-SEPOLIA_RPC_URL=[https://eth-sepolia.g.alchemy.com/v2/
-YOUR_ALCHEMY_API_KEY](https://eth-sepolia.g.alchemy.com/v2/
-YOUR_ALCHEMY_API_KEY)
+PRIVATE_KEY=0xYOUR_PRIVATE_KEY_HEX_PLACEHOLDER
+SEPOLIA_RPC_URL=[https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY](https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY)
 ETHERSCAN_API_KEY=YOUR_ETHERSCAN_SECRET_API_KEY
 
 4. Compilation Pipeline
