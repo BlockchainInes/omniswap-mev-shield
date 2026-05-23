@@ -1,6 +1,7 @@
 Markdown
-
 # OmniSwap MEV-Shield 🛡️
+
+An institutional-grade, highly optimized security infrastructure framework engineered for
 
 An institutional-grade, highly optimized security infrastructure framework engineered for decentralized exchanges (DEXs). This system leverages a cryptographic **Commit-Reveal Scheme** to achieve absolute protection against front-running, sandwich attacks, and generalized mempool front-runners, ensuring zero toxic value extraction from user payloads.
 
