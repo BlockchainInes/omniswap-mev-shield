@@ -68,6 +68,7 @@ Install and set up the professional Foundry testing environment workspace:
 PowerShell
 curl -L [https://foundry.paradigm.xyz](https://foundry.paradigm.xyz) | bash
 foundryup
+
 Initialize standard workspace dependencies:
 
 PowerShell
