@@ -49,6 +49,7 @@ Plaintext
 ├── foundry.toml      # Hardened compiler and framework options
 └── README.md         # Documentation layout overview
 ================================================================================
+
 PROTOCOL EXECUTION PROOF (TERMINAL & SMART CONTRACT VERIFICATION)
 The protocol is fully operational, validated, and successfully deployed to the public test ledger:
 
