@@ -1,5 +1,5 @@
 Markdown
-# OmniSwap MEV-Shield 🛡️
+# OmniSwap-MEV-Shield 🛡️
 
 An institutional-grade, highly optimized security infrastructure framework engineered for decentralized exchanges (DEXs). This system leverages a cryptographic **Commit-Reveal Scheme** to achieve absolute protection against front-running, sandwich attacks, and generalized mempool front-runners, ensuring zero toxic value extraction from user payloads.
 
@@ -34,6 +34,7 @@ The architecture isolates the hidden transaction intent from deterministic state
    ┌───────────────────────┐
    │ Matches Hash? ──► YES │ ───► [ ATOMIC EXECUTION ] ──► (Target DEX)
    └───────────────────────┘
+
 Core Project Directory
 Plaintext
 ├── .github/          # Automated pipeline configs
@@ -81,7 +82,9 @@ Populate localized environment values within a .env deployment file in the root 
 
 Fragmento de código
 PRIVATE_KEY=0x9685ed0b956580f8b46ce68696c15e7508dd43f8...
-SEPOLIA_RPC_URL=[https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY](https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY)
+SEPOLIA_RPC_URL=[https://eth-sepolia.g.alchemy.com/v2/
+YOUR_ALCHEMY_API_KEY](https://eth-sepolia.g.alchemy.com/v2/
+YOUR_ALCHEMY_API_KEY)
 ETHERSCAN_API_KEY=YOUR_ETHERSCAN_SECRET_API_KEY
 
 4. Compilation Pipeline
