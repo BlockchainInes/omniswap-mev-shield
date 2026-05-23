@@ -30,7 +30,7 @@ The protocol is fully operational, validated, and successfully deployed to the p
       1. COMMIT PHASE (Blocks: N)
                │  (Submits Keccak256 Hash of: Target + Payload + Secret Salt)
                ▼
-   ┌───────────────────────┐      [ MEMPOOL BOTS ]
+   ┌───────────────────────┐       MEMPOOL BOTS 
    │  MevShield Contract   │ ───►  (See the hash, but CANNOT see
    └───────────────────────┘       the trade details or payload!)
                │
@@ -40,7 +40,7 @@ The protocol is fully operational, validated, and successfully deployed to the p
                │  (Submits Raw Parameters + Salt)
                ▼
    ┌───────────────────────┐
-   │ Matches Hash? ──► YES │ ───► [ ATOMIC EXECUTION ] ──► (Target DEX)
+   │ Matches Hash? ──► YES │ ───►  ATOMIC EXECUTION  ──► (Target DEX)
    └───────────────────────┘
 
 Core Project Directory
