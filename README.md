@@ -58,6 +58,7 @@ Official Blockchain Explorer Record: View Open-Source Verified Contract on Sepol
 
 ================================================================================
 SETUP & DEPLOYMENT GUIDE
+
 1. Installation
 Install and set up the professional Foundry testing environment workspace:
 
@@ -68,11 +69,13 @@ Initialize standard workspace dependencies:
 
 PowerShell
 forge init --force
+
 2. Boilerplate Clean Up
 Remove unneeded automated template logic to prevent compile mismatches:
 
 PowerShell
 Remove-Item script/Counter.s.sol
+
 3. Configuration Setup
 Populate localized environment values within a .env deployment file in the root workspace folder:
 
@@ -80,21 +83,25 @@ Fragmento de código
 PRIVATE_KEY=0x9685ed0b956580f8b46ce68696c15e7508dd43f8...
 SEPOLIA_RPC_URL=[https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY](https://eth-sepolia.g.alchemy.com/v2/YOUR_ALCHEMY_API_KEY)
 ETHERSCAN_API_KEY=YOUR_ETHERSCAN_SECRET_API_KEY
+
 4. Compilation Pipeline
 Compile the smart contracts directly utilizing the high-speed Solc infrastructure engine:
 
 PowerShell
 forge compile
+
 5. Executing the Test Suite
 Trigger the full validation matrix evaluating phase transitions, storage verification, and cryptographic hash checks:
 
 PowerShell
 forge test -vvv
+
 6. Production Network Deployment Simulation & Execution
 Broadcast the script directly onto the Ethereum Sepolia Live Ledger parsing local .env values dynamically:
 
 PowerShell
 forge script script/Deploy.s.sol:DeployMevShield --rpc-url (Get-Content .env | Where-Object {$_ -match "SEPOLIA_RPC_URL"} | ForEach-Object {$_ -replace "SEPOLIA_RPC_URL=",""}) --private-key (Get-Content .env | Where-Object {$_ -match "PRIVATE_KEY"} | ForEach-Object {$_ -replace "PRIVATE_KEY=",""}) --broadcast
+
 7. Contract Source Code Verification
 Publish and register the source implementation files on Etherscan for trustless checking:
 
